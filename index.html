@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <script></script>
+</head>
+
+<body>
+    <script>
+        // global variables
+        let a1 = document.querySelector('body');
+
+        // function definition
+        // example  of function with no return value 
+        function myFunctionA() {
+            let h1 = "India, China talk past each other on Depsang and Demchok";
+            let news1 = document.createElement("h1")
+            news1.append(h1)
+            a1.append(h1)
+        };
+        // function calling
+        myFunctionA();
+    </script>
+    <script>
+        //global variable
+        let b2=document.querySelector('body');
         
-    </body>
+        //function definination
+        function myFunctionB(){
+            let h2="'Go to Pak with family': BJP leader posts video message for ex Bihar minister";
+            news2=document.createElement('h2');
+            news2.append(h2)
+            b2.append(h2)
+
+             }
+        myFunctionB();
+    </script>
+</body>
+
 </html>
